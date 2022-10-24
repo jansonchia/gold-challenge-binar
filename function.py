@@ -9,7 +9,6 @@ def remove_punct_csv(s):
     return re.sub(r"[^\w\d\s]+","",s)
 
 def remove_punct_text(s):
-    # s = re.sub(r"\\x[A-Za-z0-9./]+", '',unidecode(s))
     s =re.sub(r"[\t|\n|\r]"," ", s)
     return re.sub(r"[^\w\d\s]+","",s)
 

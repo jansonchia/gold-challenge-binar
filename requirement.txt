@@ -1,0 +1,9 @@
+pandas
+flask
+flasgger
+unidecode
+sqlite3
+seaborn
+matplotlib
+wordcloud  WordCloud
+timeit
