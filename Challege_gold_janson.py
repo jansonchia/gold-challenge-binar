@@ -12,11 +12,11 @@ import timeit
 
 
 conn = sqlite3.connect ("sqlite3_csv.db")
-# conn.execute("create table csv (Tweet varchar,HS int,Abusive int,HS_Individual int,HS_Group int,HS_Religion int,HS_Race int,HS_Physical int,HS_Gender int,HS_Other int,HS_Weak int,HS_Moderate int,HS_Strong int);")
+conn.execute("create table csv (Tweet varchar,HS int,Abusive int,HS_Individual int,HS_Group int,HS_Religion int,HS_Race int,HS_Physical int,HS_Gender int,HS_Other int,HS_Weak int,HS_Moderate int,HS_Strong int);")
 conn.close()
 
 conn = sqlite3.connect ("sqlite3_text.db")
-# conn.execute("create table text (input_text varchar, clean_text varchar);")
+conn.execute("create table text (input_text varchar, clean_text varchar);")
 conn.close()
 
 
